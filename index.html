@@ -50,7 +50,7 @@
             <a href="">Page9</a>
             <a href="">Page10</a>
           </div>
-          <div class="mt-10 flex flex-col items-end max-w-300 m-auto">
+          <div class="mt-10 flex flex-col items-end max-w-300 m-auto p-5">
             <div
               class="lg:w-[220px] lg:h-[100px] bg-[#0000DE] text-white relative rounded-2xl text-center w-[160px] h-[100px]"
             >
@@ -100,7 +100,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="p-5">
       <div class="max-w-300 m-auto">
         <h2 class="lg:text-5xl font-[400] my-10">Сеть АЗС НЕФТЕКОМ</h2>
         <div class="lg:flex lg:justify-between lg:gap-5">
@@ -158,12 +158,12 @@
               Узнать подробнее
             </button>
           </div>
-          <div>
+          <div class="mt-5 lg:mt-0">
             <img src="./images/neftekom.png" alt="" />
           </div>
         </div>
         <div class="lg:flex lg:justify-between gap-10">
-          <div class="positive">
+          <div class="lg:positive hidden lg:block">
             <img src="./images/backblue.png" alt="" class="" />
             <img
               src="./images/tel 1.png"
@@ -198,16 +198,118 @@
               Посмотреть адреса АЗС
             </button>
           </div>
-          <div>
+          <div class="mt-5 lg:mt-0">
             <img src="./images/map (2).png" alt="" />
           </div>
         </div>
         <div class="max-w-300 m-auto relative">
-          <p class="text-center lg:text-3xl font-[600] my-5">Качество во всем</p>
+          <p class="text-center lg:text-3xl font-[600] my-5">
+            Качество во всем
+          </p>
           <img src="./images/night.png" alt="" />
-          <img src="./images/vecbut.svg" alt="" class="absolute bottom-40 left-120" />
+          <img
+            src="./images/vecbut.svg"
+            alt=""
+            class="lg:absolute lg:block bottom-40 left-120 hidden"
+          />
+        </div>
+        <div class="lg:flex lg:justify-between my-20 lg:gap-5">
+          <div>
+            <img src="./images/building.png" alt="" />
+          </div>
+          <div>
+            <p class="lg:text-4xl font-[500] text-center mb-5">
+              Оставьте отзыв о нас
+            </p>
+            <div class="lg:flex lg:gap-5">
+              <div>
+                <div
+                  class="bg-[#FAFAFA] p-2 rounded-2xl shadow-md w-[220px] h-[220px] text-center"
+                >
+                  <img src="./images/yandex.svg" alt="" class="m-auto mt-4" />
+                  <p class="text-[18px]">Яндекс</p>
+                  <p class="p-2">Оценка 4,9</p>
+                  <button class="bg-[#0000DE] text-white rounded-xl py-2 px-8">
+                    Оставить отзыв
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="bg-[#FAFAFA] p-2 rounded-2xl shadow-md w-[220px] h-[220px] text-center"
+                >
+                  <img src="./images/F.svg" alt="" class="m-auto mt-4" />
+                  <p class="text-[18px]">Яндекс</p>
+                  <p class="p-2">Оценка 4,9</p>
+                  <button class="bg-[#0000DE] text-white rounded-xl py-2 px-8">
+                    Оставить отзыв
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="bg-[#FAFAFA] p-2 rounded-2xl shadow-md w-[220px] h-[220px] text-center"
+                >
+                  <img src="./images/colors.svg" alt="" class="m-auto mt-4" />
+                  <p class="text-[18px]">Яндекс</p>
+                  <p class="p-2">Оценка 4,9</p>
+                  <button class="bg-[#0000DE] text-white rounded-xl py-2 px-8">
+                    Оставить отзыв
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer class="bg-[#000061]">
+      <div class="max-w-300 m-auto p-5 lg:flex lg:justify-between text-white lg:py-10">
+        <div class="lg:flex lg:justify-between lg:gap-5 pt-5">
+          <div class="leading-[30px]">
+            <h6 class="text-2xl">Навигация по сайту</h6>
+            <p>Главная</p>
+            <p>Бонусная программа</p>
+            <p>Сеть АЗС</p>
+            <p>Вакансии</p>
+            <p>Для юридических лиц</p>
+            <p>Карта сайта</p>
+            <p>Политика конфиденциальности</p>
+            <p>Личный кабинет</p>
+          </div>
+          <div>
+            <h6 class="text-2xl">Наши контакты</h6>
+            <p>Офис:</p>
+            <p>660021, Россия, Красноярск,</p>
+            <p>пр. Мира, 128 (оф.140)</p>
+            <p>Телефон:</p>
+            <p>+7 (391) 265-04-48</p>
+            <p class="text-[#FFFFFF91]">отдел канцелярии</p>
+            <p class="text-[#FFFFFF91]">Часы работы: с 09:00-18:00</p>
+          </div>
+        </div>
+        <div class="lg:flex lg:justify-between mt-10 lg:gap-5 lg:items-center">
+          <div>
+            <h6 class="text-2xl">E-mail:</h6>
+            <p>neftecom-@mail.ru</p>
+            <p class="text-[#FFFFFF91]">отдел канцелярии</p>
+            <p>sale@kroil24.ru</p>
+            <p class="text-[#FFFFFF91]">Оптовая реализация ГСМ</p>
+            <p>promo@neftecom24.ru</p>
+            <p class="text-[#FFFFFF91]">Отдел маркетинга</p>
+            <p>kachestvo@neftecom24.ru</p>
+            <p class="text-[#FFFFFF91]">Контроль качества</p>
+          </div>
+          <div class="lg:relative">
+            <img src="./images/mapround.png" alt="" />
+            <img
+              src="./images/location.png"
+              alt=""
+              class="lg:absolute bottom-40 left-40 hidden lg:block"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
