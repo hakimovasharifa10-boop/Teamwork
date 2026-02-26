@@ -1,1 +1,4 @@
 @import "tailwindcss";
+.bg-box {
+    background-image: url('../src/images/building2.png');
+}
