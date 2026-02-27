@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-600: oklch(57.7% 0.245 27.325);
+    --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-gray-300: oklch(87.2% 0.01 258.338);
@@ -311,14 +312,17 @@
   .h-\[220px\] {
     height: 220px;
   }
+  .h-\[250px\] {
+    height: 250px;
+  }
   .h-\[270px\] {
     height: 270px;
   }
-  .h-\[700px\] {
-    height: 700px;
+  .h-\[450px\] {
+    height: 450px;
   }
-  .h-\[800px\] {
-    height: 800px;
+  .h-\[480px\] {
+    height: 480px;
   }
   .h-\[820px\] {
     height: 820px;
@@ -344,11 +348,20 @@
   .w-\[160px\] {
     width: 160px;
   }
+  .w-\[200px\] {
+    width: 200px;
+  }
   .w-\[220px\] {
     width: 220px;
   }
   .w-\[340px\] {
     width: 340px;
+  }
+  .w-\[400px\] {
+    width: 400px;
+  }
+  .w-\[460px\] {
+    width: 460px;
   }
   .w-full {
     width: 100%;
@@ -421,12 +434,19 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-b-1 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
   .border-\[\#0000DE\] {
     border-color: #0000DE;
+  }
+  .border-blue-500 {
+    border-color: var(--color-blue-500);
   }
   .border-gray-500 {
     border-color: var(--color-gray-500);
@@ -472,12 +492,6 @@
   }
   .bg-red-600 {
     background-color: var(--color-red-600);
-  }
-  .bg-\[url\(\'\.\.\/images\/building2\.png\'\)\] {
-    background-image: url('../images/building2.png');
-  }
-  .bg-\[url\(\'\.\/src\/images\/building2\.png\'\)\] {
-    background-image: url('./src/images/building2.png');
   }
   .bg-cover {
     background-size: cover;
@@ -597,6 +611,10 @@
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
+  }
+  .font-\[5\] {
+    --tw-font-weight: 5;
+    font-weight: 5;
   }
   .font-\[400\] {
     --tw-font-weight: 400;
@@ -728,6 +746,21 @@
       width: 500px;
     }
   }
+  .lg\:w-\[600px\] {
+    @media (width >= 64rem) {
+      width: 600px;
+    }
+  }
+  .lg\:w-\[650px\] {
+    @media (width >= 64rem) {
+      width: 650px;
+    }
+  }
+  .lg\:w-\[700px\] {
+    @media (width >= 64rem) {
+      width: 700px;
+    }
+  }
   .lg\:items-center {
     @media (width >= 64rem) {
       align-items: center;
@@ -736,6 +769,11 @@
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
+    }
+  }
+  .lg\:gap-2 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 2);
     }
   }
   .lg\:gap-5 {
