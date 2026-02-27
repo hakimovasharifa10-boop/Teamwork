@@ -314,6 +314,12 @@
   .h-\[270px\] {
     height: 270px;
   }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-\[800px\] {
+    height: 800px;
+  }
   .h-\[820px\] {
     height: 820px;
   }
@@ -449,6 +455,9 @@
   .bg-\[\#FAFAFA\] {
     background-color: #FAFAFA;
   }
+  .bg-\[gray\] {
+    background-color: gray;
+  }
   .bg-\[transparent\] {
     background-color: transparent;
   }
@@ -467,8 +476,8 @@
   .bg-\[url\(\'\.\.\/images\/building2\.png\'\)\] {
     background-image: url('../images/building2.png');
   }
-  .bg-\[url\(\'\.\/\.\.\/\.\.\/images\/building2\.png\'\)\] {
-    background-image: url('./../../images/building2.png');
+  .bg-\[url\(\'\.\/src\/images\/building2\.png\'\)\] {
+    background-image: url('./src/images/building2.png');
   }
   .bg-cover {
     background-size: cover;
@@ -768,6 +777,9 @@
       font-size: 19px;
     }
   }
+}
+.bg-box {
+  background-image: url('../src/images/building2.png');
 }
 @property --tw-rotate-x {
   syntax: "*";
